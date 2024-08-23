@@ -1130,6 +1130,8 @@ type HTTPURLRewriteFilter struct {
 }
 
 // HTTPRequestMirrorFilter defines configuration for the RequestMirror filter.
+//
+// <gateway:experimental:validation:XValidation:message="testing testing testing",rule="false">
 type HTTPRequestMirrorFilter struct {
 	// BackendRef references a resource where mirrored requests are sent.
 	//
