@@ -435,7 +435,6 @@ func TestHTTPRouteRuleExperimental(t *testing.T) {
 
 func TestHTTPRequestMirrorFilterExperimental(t *testing.T) {
 	var percent int32 = 42
-	var denominator int32 = 1000
 	testService := gatewayv1.ObjectName("test-service")
 	tests := []struct {
 		name       string
