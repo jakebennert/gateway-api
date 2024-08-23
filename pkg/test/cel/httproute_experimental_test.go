@@ -434,7 +434,7 @@ func TestHTTPRouteRuleExperimental(t *testing.T) {
 }
 
 func TestHTTPRequestMirrorFilterExperimental(t *testing.T) {
-	var denominator int32 = 1000
+	var denominator int32 = 1
 	testService := gatewayv1.ObjectName("test-service")
 	tests := []struct {
 		name       string
