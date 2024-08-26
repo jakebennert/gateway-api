@@ -466,8 +466,6 @@ const (
 	// Support in GRPCRouteRule: Extended
 	//
 	// Support in GRPCBackendRef: Extended
-	//
-	// <gateway:experimental:validation:XValidation:message="Only one of percent or fraction may be specified in HTTPRequestMirrorFilter",rule="!(has(self.percent) && has(self.fraction))">
 	GRPCRouteFilterRequestMirror GRPCRouteFilterType = "RequestMirror"
 
 	// GRPCRouteFilterExtensionRef should be used for configuring custom
